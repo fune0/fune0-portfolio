@@ -218,7 +218,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0.75rem;
 }
 h1 {
   margin-left: 0;
@@ -253,6 +253,7 @@ h2 {
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
+  border-bottom: 1px solid #cccccc;
 }
 h3 {
   margin-left: 0;
@@ -384,7 +385,9 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0.75rem;
+  text-align: left;
+  font-weight: bolder;
 }
 figure {
   margin-left: 0;
@@ -582,11 +585,11 @@ th {
 }
 th:first-child,
 td:first-child {
-  padding-left: 0;
+  padding-left: 10px;
 }
 th:last-child,
 td:last-child {
-  padding-right: 0;
+  padding-right: 10px;
 }
 tt,
 code {
@@ -615,8 +618,171 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
+
+/* index.js*/
+#wrap {
+  clear: both;
+}
+
+.container {
+  text-align: center;
+}
+
+.column {
+  margin: auto;
+}
+
+.message {
+  margin-top: 36px;
+}
+
+.snsicon {
+  text-align: center;
+  margin: 24px;
+}
+
+.btn-social :hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.github {
+  margin-bottom: 0.75rem;
+  margin-right: 24px;
+}
+
+.twitter {
+  margin-bottom: 0.75rem;
+}
+
+.wordpress {
+  margin-bottom: 0.75rem;
+  margin-left: 24px;
+}
+
+.message {
+  text-align: center;
+  padding: 0;
+} 
+
+/* index.js以外 */
+.icon:before {
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #cccccc;
+}
+
+/* skills.js */
+.card {
+  width: 480px;
+  float: left;
+  margin: 20px 0;
+}
+
+/* about.js*/
+#about .profile-txt {
+  float: right;
+}
+
+#about .career td {
+  text-align: left;
+}
+
+/* header index.js */
+.nav {
+  margin-bottom: 24px;
+  background-color: #000;
+  height: 56px;
+}
+
+.site-title {
+  float: left;
+  margin-top: 4px;
+  margin-left: 240px;
+}
+
+.navbar-brand {
+  float: right;
+  margin-top: 14px;
+  margin-right: 220px;
+}
+
+.navbar-brand li {
+  float:left;
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.navbar-brand a:hover {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+/* レスポンシブ */
+@media screen and (max-width: 600px) {
   html {
-    font-size: 100%;
+    font-size: 3.5vw;
+  }
+
+  h1 {
+    font-size: 7.2vw;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  h2 {
+    font-size: 6vw;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  h3 {
+    font-size: 4.8vw;
+    padding-left: 10px;
+  }
+
+  p {
+    padding-left: 10px;
+    margin-right: 10px;
+  }
+
+  header {
+    width: auto;
+    margin: 0 5%;
+    padding-bottom: 10px;
+    position: fixed;
+  }
+
+  .nav {
+    margin-bottom: 0;
+    background-color: #000;
+    height: 100px;
+  }
+
+  .site-title {
+    float: none;
+    margin: 0;
+    padding-top: 10px;
+  }
+  
+  .navbar-brand {
+    float: right;
+    margin: 0;
+  }
+  
+  .navbar-brand li {
+    display: inline;
+    float:none;
+    margin: 0 8px;
+  }
+
+  .card {
+    width: 100%;
+    float: left;
+    margin: 0 0 36px 0;
+    padding-left: 10px;
   }
 }
+

@@ -10,10 +10,10 @@ import { faGithub, faTwitter, faWordpressSimple } from '@fortawesome/free-brands
 const IndexPage = () => (
   <Layout>
     <SEO title="" />
-    <h1 style={{textAlign: 'left',}}>Hello, SHIBUYA!</h1>
+    <h2 style={{textAlign: 'left',}}>Hello, SHIBUYA!</h2>
     <div id="wrap">
       <div className="container">
-        <div className="column" style={{ maxWidth: '200px', marginBottom: '1.45rem'}}>
+        <div className="column" style={{ maxWidth: '200px', marginTop: '-5px', marginBottom: '1.45rem'}}>
           <Image filename="fune0icon.png" alt="フネオ"/>
         </div>
 

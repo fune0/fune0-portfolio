@@ -4,6 +4,8 @@ import Layout from "../components/layout/index"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import { Link } from "gatsby"
+
 const Workspage = () => (
   <Layout>
     <SEO title="Works" />

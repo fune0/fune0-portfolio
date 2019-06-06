@@ -20,7 +20,7 @@ const Workspage = () => (
               <Image filename="portfolio.png" alt="ポートフォリオ"/>
             </span>
                 <h2 class="work-title">Portfolio Site</h2>
-                <p class="work-txt"><a href="https://github.com/fune0/fune0-portfolio" target="_blank">Github</a></p>
+                <p class="work-txt"><Link to="/">Github</Link></p>
             </div>
 
           </div>

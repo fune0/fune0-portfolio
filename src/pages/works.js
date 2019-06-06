@@ -10,49 +10,17 @@ const Workspage = () => (
     <h2>Works</h2>
     <p>Welcome to Works Page</p>
     
-    <section class="section" id="work">
-        <div class="inner">
+    <section className="section" id="work">
+        <div className="inner">
 
-          <div class="card-wrapper">
+          <div className="card-wrapper">
             
-            <div class="card">
+            <div className="card">
             <span className="work-icon">
-              
+              <img className="portfolio" src="portfolio.png" data-size="" class="card-image" />
             </span>
-              <div class="work">
-                <h3 class="work-title"></h3>
-                <p class="work-txt"></p>
-              </div>
-            </div>
-
-            <div class="card">
-            <span className="work-icon">
-              
-            </span>
-              <div class="work">
-                <h3 class="work-title"></h3>
-                <p class="work-txt"></p>
-              </div>
-            </div>
-
-            <div class="card">
-            <span className="work-icon">
-              
-            </span>
-              <div class="work">
-                <h3 class="work-title"></h3>
-                <p class="work-txt"></p>
-              </div>
-            </div>
-
-            <div class="card">
-            <span className="work-icon">
-              
-            </span>
-              <div class="work">
-                <h3 class="work-title"></h3>
-                <p class="work-txt"></p>
-              </div>
+                <h2 class="work-title">Portfolio Site</h2>
+                <p class="work-txt"><a href="https://github.com/fune0/fune0-portfolio" target="_blank">Github</a></p>
             </div>
 
           </div>

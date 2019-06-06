@@ -9,8 +9,8 @@ import { faGithub, faTwitter, faWordpressSimple } from '@fortawesome/free-brands
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1 style={{textAlign: 'left',}}>Hello, Shibuya!</h1>
+    <SEO title="" />
+    <h1 style={{textAlign: 'left',}}>Hello, SHIBUYA!</h1>
     <div id="wrap">
       <div className="container">
         <div className="column" style={{ maxWidth: '200px', marginBottom: '1.45rem'}}>

@@ -23,10 +23,9 @@ const Workspage = () => (
             </span>
                 <h2 class="work-title">Portfolio Site</h2>
                 <p class="work-txt">Gatsby/React/netlify</p>
-                <p class="work-link"><Link to="https://github.com/fune0/fune0-portfolio" style={{
-                  color: '#333',
-                  textDecoration: 'none'}}
-                >Github</Link></p>
+                <p class="work-link"><a href="https://github.com/fune0/fune0-portfolio" style={{
+                  color: '#333'}}
+                >Github</a></p>
             </div>
 
           </div>

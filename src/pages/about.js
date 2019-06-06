@@ -1,10 +1,8 @@
-import React from 'react'
+import React from "react"
+
+import Layout from "../components/layout/index"
 import Image from "../components/image"
-
-import { Link } from 'gatsby'
-
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import SEO from "../components/seo"
 
 const Aboutpage = () => (
   <Layout >
@@ -44,7 +42,7 @@ const Aboutpage = () => (
         </table>
       </section>
     </div>
-    <Link to=""></Link>
+
   </Layout>
 )
 

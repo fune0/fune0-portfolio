@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react"
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from "../components/layout/index"
+// import Image from "../components/image"
+import SEO from "../components/seo"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJs, faLaravel, faWordpress, faReact } from '@fortawesome/free-brands-svg-icons'
@@ -74,7 +74,6 @@ const Skillspage = () => (
         </div>
      </section>
 
-    <Link to=""></Link>
   </Layout>
 )
 

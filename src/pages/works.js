@@ -17,7 +17,7 @@ const Workspage = () => (
             
             <div className="card">
             <span className="work-icon">
-              <img className="portfolio" src="portfolio.png" data-size="" class="card-image" />
+              <Image filename="portfolio.png" alt="ポートフォリオ"/>
             </span>
                 <h2 class="work-title">Portfolio Site</h2>
                 <p class="work-txt"><a href="https://github.com/fune0/fune0-portfolio" target="_blank">Github</a></p>

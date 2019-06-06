@@ -9,8 +9,8 @@ import { faGithub, faTwitter, faWordpressSimple } from '@fortawesome/free-brands
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="" />
-    <h2 style={{textAlign: 'left',}}>Hello, SHIBUYA!</h2>
+    <SEO title="Home" />
+
     <div id="wrap">
       <div className="container">
         <div className="column" style={{ maxWidth: '200px', marginTop: '-5px', marginBottom: '1.45rem'}}>
@@ -23,6 +23,7 @@ const IndexPage = () => (
         </div>
 
         <div className="message" style={{marginBottom: 50,}}>
+          <h3 style={{textAlign: 'center',}}>Hello, SHIBUYA!</h3>
           <p style={{textAlign: 'center'}}>I live in Shibuya ward to enjoy solitude.</p>
           <p style={{textAlign: 'center'}}>But I sometimes feel lonely.</p>
         </div>

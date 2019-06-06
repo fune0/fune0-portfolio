@@ -13,7 +13,7 @@ const IndexPage = () => (
 
     <div id="wrap">
       <div className="container">
-        <div className="column" style={{ maxWidth: '200px', marginTop: '-5px', marginBottom: '1.45rem'}}>
+        <div className="column" style={{ maxWidth: '200px', marginBottom: '1.45rem'}}>
           <Image filename="fune0icon.png" alt="フネオ"/>
         </div>
 
